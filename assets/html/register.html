@@ -118,11 +118,10 @@
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <div class="formbold-form-wrapper">
-      <form action="" method="POST">
+      <form action="../../index:5000" method="post">
         <div class="formbold-form-title">
           <h2 class="">Register now</h2>
           <p>
-
           </p>
         </div>
 
@@ -156,7 +155,7 @@
           </div>
           <div>
             <label for="phone" class="formbold-form-label"> Phone number </label>
-            <input type="text" name="phone" id="phone" class="formbold-form-input" />
+            <input type="tel" id="phone" class="formbold-form-input" />
           </div>
         </div>
 
@@ -216,15 +215,15 @@
         </div>
       </div>
 
-      <div class="formbold-checkbox-wrapper">
-        <label for="supportCheckbox" class="formbold-checkbox-label">
+      <div class="formbold-radio-wrapper">
+        <label for="supportradio" class="formbold-radio-label">
           <div class="formbold-relative">
             <input
-              type="checkbox"
-              id="supportCheckbox"
-              class="formbold-input-checkbox"
+              type="radio"
+              id="supportradio"
+              class="formbold-input-radio"
             />
-            <div class="formbold-checkbox-inner">
+            <div class="formbold-radio-inner">
               <span class="formbold-opacity-0">
                 <svg
                   width="11"
@@ -245,46 +244,30 @@
           <a href="#"> terms, conditions, and policies</a>
         </label>
       </div> -->
-        <label class="wpforms-field-label" for="wpforms-1310-field_9">Apply for Class <span
-            class="wpforms-required-label">*</span></label>
-        <ul id="wpforms-1310-field_9" class="wpforms-field-required">
-          <li class="choice-1 depth-1"><input type="checkbox" id="wpforms-1310-field_9_1" name="wpforms[fields][9][]"
-              value="LKG" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_1">LKG</label></li>
-          <li class="choice-2 depth-1"><input type="checkbox" id="wpforms-1310-field_9_2" name="wpforms[fields][9][]"
-              value="UKG" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_2">UKG</label></li>
-          <li class="choice-3 depth-1"><input type="checkbox" id="wpforms-1310-field_9_3" name="wpforms[fields][9][]"
-              value="I std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_3">I std</label></li>
-          <li class="choice-8 depth-1"><input type="checkbox" id="wpforms-1310-field_9_8" name="wpforms[fields][9][]"
-              value="II std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_8">II std</label></li>
-          <li class="choice-10 depth-1"><input type="checkbox" id="wpforms-1310-field_9_10" name="wpforms[fields][9][]"
-              value="III std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_10">III std</label></li>
-          <li class="choice-9 depth-1"><input type="checkbox" id="wpforms-1310-field_9_9" name="wpforms[fields][9][]"
-              value="IV std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_9">IV std</label></li>
-          <li class="choice-6 depth-1"><input type="checkbox" id="wpforms-1310-field_9_6" name="wpforms[fields][9][]"
-              value="V std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_6">V std</label></li>
-          <li class="choice-5 depth-1"><input type="checkbox" id="wpforms-1310-field_9_5" name="wpforms[fields][9][]"
-              value="VI std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_5">VI std</label></li>
-          <li class="choice-11 depth-1"><input type="checkbox" id="wpforms-1310-field_9_11" name="wpforms[fields][9][]"
-              value="VII std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_11">VII std</label></li>
-          <li class="choice-12 depth-1"><input type="checkbox" id="wpforms-1310-field_9_12" name="wpforms[fields][9][]"
-              value="VIII std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_12">VIII std</label></li>
-          <li class="choice-13 depth-1"><input type="checkbox" id="wpforms-1310-field_9_13" name="wpforms[fields][9][]"
-              value="IX std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_13">IX std</label></li>
-          <li class="choice-14 depth-1"><input type="checkbox" id="wpforms-1310-field_9_14" name="wpforms[fields][9][]"
-              value="X std" required="" aria-required="true"><label class="wpforms-field-label-inline"
-              for="wpforms-1310-field_9_14">X std</label></li>
-        </ul>
+        <div class="options-conainer">
+          <ul id="wpforms-1310-field_9" class="wpforms-field-required">
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+            <li class="choice-1 depth-1"><input type="radio" name="class-opt"> <label class="wpforms-field-label-inline"
+                for="wpforms-1310-field_9_2">LKG</label></li>
+
+          </ul>
+        </div>
         <button class="formbold-btn">Register Now</button>
       </form>
     </div>

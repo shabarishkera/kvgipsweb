@@ -147,3 +147,22 @@
   .formbold-btn:hover {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
   }
+.depth-1{
+display:flex;
+justify-content: space-around;
+}
+.wpforms-field-label-inline,.li-input
+{
+
+  margin: 0;
+}
+.li-input{
+margin: 0;
+padding:0;
+justify-self:flex-end;
+}
+li
+{
+  
+  margin: 10px;
+}
